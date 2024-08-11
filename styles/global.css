@@ -1,0 +1,20 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*O :root é um seletor pseudo-classe que se refere ao elemento raiz do documento, ele é utilizado principalmente para definir variaveis CSS que podem ser acessadas em todo o documento*/
+:root {
+  --brand-color-light: #60A5FA;
+  --brand-color-dark: #1D4ED8;
+  --bg-color: #0F172A;
+  --stroke-color: #1E293B;
+  --text-color-primary: #F1F5F9;
+  --text-color-secondary: #CBD5E1;
+}
+
+body {
+  color: var(--text-color-primary);
+  background-color: var(--bg-color);
+}
